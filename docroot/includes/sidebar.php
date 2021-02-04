@@ -42,7 +42,7 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
                      'CPL-HWLC', 'Illinois Tech', 'IL Labor History', 'Intl Society Slave Ancestry', 'Kartemquin', 'Lake Cty Discovery',
                      'Lane Tech HS', 'Little Black Pearl', 'Loyola', 'Malcolm X College', 'Northeastern IL',
                      'Newberry', 'North Park', 'Northwestern', 'Pullman Historic Site', 'Roosevelt',
-                     'Rush U Med Ctr', 'Shorefront', 'Spertus', 'South Side Community Arts Ctr,'
+                     'Rush U Med Ctr', 'Shorefront', 'Spertus', 'South Side Community Arts Ctr',
                      'UIC', 'UChicago') as $collection) { ?>
     <li><a href="/browse.php?browse=<?=$collection?>"><?=$collection?></a></li>
 <?php } ?>
