@@ -33,10 +33,10 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
 
 <div class="bgse">
 <div class="bgsw">
-<div class="bgne"><h2 class="bgnw">Browse by Collection</h2></div>
+<div class="bgne"><h2 class="bgnw">Browse by Organization</h2></div>
 
 <ul>
-<?php foreach (array('bronzeville', 'cbmr', 'chm', 'columbia',
+<?php foreach (array('Bronzeville Historical Society', 'cbmr', 'chm', 'columbia',
                      'cookcty', 'csu', 'cyc', 'defender', 'depaul',
                      'du', 'dusable', 'ehc', 'eta', 'gerhart', 'harsh',
                      'hwlc', 'iit', 'ilhs', 'isdsa', 'kart', 'lake',

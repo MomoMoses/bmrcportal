@@ -3,10 +3,10 @@
 include 'config.php';
 
 /*
- * INPUT 
+ * INPUT
  */
 $clean = array();
-$clean['browse'] = 'collection/UNCAP';
+$clean['browse'] = 'collection/bmrcportal';
 if (isset($_GET['browse'])) {
     if (in_array($_GET['browse'], array('bronzeville', 'cbmr', 'chm',
         'columbia', 'cookcty', 'csu', 'cyc', 'defender', 'depaul',
@@ -20,7 +20,7 @@ if (isset($_GET['browse'])) {
 	}
 }
 
-/* 
+/*
  * FUNCTIONS
  */
 
@@ -28,7 +28,7 @@ function getsnippet($url, $institutions=True) {
     $id = array_pop(explode('#', $url));
 
 	$xml = new DOMDocument();
-    if ($institutions) { 
+    if ($institutions) {
 	    $xml->load('xml/institutions.xml');
     } else {
 	    $xml->load('xml/collections.xml');
@@ -108,11 +108,11 @@ switch ($clean['browse']) {
 		$TITLE = "Browse by Collection : Mapping the Stacks";
 		$SNIPPET = getsnippet("/collections.php#mappingthestacks", False);
 		break;
-	case 'project/NWU':		
+	case 'project/NWU':
 		$TITLE = "Browse by Collection : NWU";
 		$SNIPPET = "";
 		break;
-	case 'project/SCRC':		
+	case 'project/SCRC':
 		$TITLE = "Browse by Collection : Special Collections Research Center";
 		$SNIPPET = getsnippet("/institutions.php#universityofchicago", True);
 		break;

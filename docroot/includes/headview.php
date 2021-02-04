@@ -1,6 +1,6 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>   
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <link href="/css/reset.css" rel="stylesheet" type="text/css"/>
-<link href="/css/uncap.css" rel="stylesheet" type="text/css"/>
+<link href="/css/portal.css" rel="stylesheet" type="text/css"/>
 <link href="/css/type.css" rel="stylesheet" type="text/css"/>
 <![if !IE 6]>
 <link href="/css/view.css" rel="stylesheet" type="text/css"/>
@@ -26,7 +26,7 @@
 $(document).ready( function() {
 	// SET UP EXPANDABLE NAVIGATION IN EAD SIDEBAR.
 	$('#ead #sidebar li ul').expandable();
-	
+
 	// UPDATE HIGHLIGHTED NAVIGATION TO GO ALONG WITH SCROLLING.
 	$('#toc').highlightnavigation();
 
