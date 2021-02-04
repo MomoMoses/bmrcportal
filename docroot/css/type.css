@@ -1,9 +1,9 @@
 /*
- * TYPOGRAPHY 
+ * TYPOGRAPHY
  */
 
 a:link, a:visited, a:hover, a:active {
-	color: #115566; 
+	color: #115566;
 }
 a:link, a:visited {
 	text-decoration: none;
@@ -11,12 +11,12 @@ a:link, a:visited {
 a:hover, a:active {
 	text-decoration: underline;
 }
-body#ead div#text a:link, 
+body#ead div#text a:link,
 body#ead div#text a:visited {
 	text-decoration: underline;
 }
 body {
-	background: white url(../img/grid.gif) repeat-x;
+	background: white url(../img/BMRC_banner.original.jpg) repeat-x;
 	font-family: Georgia, sans-serif;
 	line-height: 22px;
 }
@@ -54,14 +54,14 @@ h2 {
 	margin: 0 10px 22px 10px;
 	position: relative;
 	top: 7px;
-} 
+}
 h2#advancedsearchtitle {
 	margin-top: 10px;
 	position: static;
 }
 h3 {
 	font-size: 20px;
-	margin: 0 20px 22px 10px; 
+	margin: 0 20px 22px 10px;
 	position: relative;
 	top: 16.5px;
 }
@@ -166,4 +166,3 @@ span.highlight {
 	background: #ffff66;
 	text-decoration: inherit;
 }
-

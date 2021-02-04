@@ -3,7 +3,7 @@
 include "config.php";
 
 $clean = array();
-if (isset($_GET['eadid'])) 
+if (isset($_GET['eadid']))
 	$clean['eadid'] = $_GET['eadid'];
 if (isset($_GET['q']))
 	$clean['q'] = $_GET['q'];
@@ -11,11 +11,11 @@ if (isset($_GET['xml']))
 	$clean['xml'] = true;
 
 $HTML = array();
-foreach($clean as $k => $v) 
+foreach($clean as $k => $v)
 	$HTML[$k] = htmlspecialchars($clean[$k]);
 
 $URL = array();
-foreach ($clean as $k => $v) 
+foreach ($clean as $k => $v)
 	$URL[$k] = urlencode($clean[$k]);
 
 if (!(array_key_exists('q', $URL))) {
@@ -37,7 +37,7 @@ $xml->loadXML($xmlstring);
 /* Extract the title from the XML string. */
 $xp = new DOMXPath($xml);
 $nl = $xp->query("//frontmatter/titlepage/titleproper");
-$PAGETITLE = 'UNCAP';
+$PAGETITLE = 'BMRC Portal';
 if ($nl->length) {
 	$PAGETITLE .= ': ' . $nl->item(0)->nodeValue;
 }

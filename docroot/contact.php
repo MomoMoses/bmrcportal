@@ -21,12 +21,12 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 <div id="textwrapper">
 
 <!--CONTACT US-->
-<h2>Contact UNCAP</h2>
+<h2>Contact the BMRC</h2>
 
-<p>For more information about UNCAP's partner institutions or their materials,
-please contact one of our <a href="bios.php">partner institutions</a>.</p>
+<p>For more information about the Black Metropolis Research Consortium's member organizations and their repositories,
+please contact us at mailto:bmrc@uchicago.edu <!--or through our<a href="bios.php">members</a>.--></p>
 
-<p>For information about the UNCAP project itself, please contact us using the
+<p>For information about the BMRC, please contact us using the
 form below:</p>
 
 <form>

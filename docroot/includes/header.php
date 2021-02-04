@@ -1,4 +1,4 @@
-<h1><a href="/">BMRC Portal<sub>Beta</sub></a></h1>
+<h2><a href="/">BMRC Portal</a></h2>
 
 <div id="navigation">
 <ul>
