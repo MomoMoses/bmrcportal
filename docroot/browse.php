@@ -8,13 +8,14 @@ include 'config.php';
 $clean = array();
 $clean['browse'] = 'collection/bmrcportal';
 if (isset($_GET['browse'])) {
-    if (in_array($_GET['browse'], array('bronzeville', 'cbmr', 'chm',
-        'columbia', 'cookcty', 'csu', 'cyc', 'defender', 'depaul',
-        'du', 'dusable', 'ehc', 'eta', 'gerhart', 'harsh', 'hwlc',
-        'iit', 'ilhs', 'isdsa', 'kart', 'lake', 'lanetech', 'lbp',
-        'loyola', 'malcolmx', 'neiu', 'newberry', 'northpark', 'nu',
-        'pshs', 'roosevelt', 'rush', 'shorefront', 'spertus', 'sscac',
-        'taylor', 'uic', 'uoc', 'werner'))) {
+    if (in_array($_GET['browse'], array('Bronzeville Historical', 'CBMR', 'Chicago History Museum','Columbia College',
+                         'Cook County', 'Chicago State', 'Chicago Youth Ctr', 'Defender', 'Depaul',
+                         'Dominican', 'Dusable', 'Evanston History Ctr', 'ETA Creative Arts', 'Gerber Hart', 'CPL-Harsh',
+                         'CPL-HWLC', 'Illinois Tech', 'IL Labor History', 'Intl Society Slave Ancestry', 'Kartemquin', 'Lake Cty Discovery',
+                         'Lane Tech HS', 'Little Black Pearl', 'Loyola', 'Malcolm X College', 'Northeastern IL',
+                         'Newberry', 'North Park', 'Northwestern', 'Pullman Historic Site', 'Roosevelt',
+                         'Rush U Med Ctr', 'Shorefront', 'Spertus', 'South Side Community Arts Ctr',
+                         'UIC', 'UChicago'))) {
 			$clean['browse'] = $_GET['browse'];
 			break;
 	}
