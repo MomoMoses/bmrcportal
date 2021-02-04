@@ -36,14 +36,14 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
 <div class="bgne"><h2 class="bgnw">Browse by Organization</h2></div>
 
 <ul>
-<?php foreach (array('Bronzeville Historical Society', 'cbmr', 'chm', 'columbia',
-                     'cookcty', 'csu', 'cyc', 'defender', 'depaul',
-                     'du', 'dusable', 'ehc', 'eta', 'gerhart', 'harsh',
-                     'hwlc', 'iit', 'ilhs', 'isdsa', 'kart', 'lake',
-                     'lanetech', 'lbp', 'loyola', 'malcolmx', 'neiu',
-                     'newberry', 'northpark', 'nu', 'pshs', 'roosevelt',
-                     'rush', 'shorefront', 'spertus', 'sscac', 'taylor',
-                     'uic', 'uoc', 'werner') as $collection) { ?>
+<?php foreach (array('Bronzeville Historical', 'CBMR', 'Chicago History Museum','Columbia College',
+                     'Cook County', 'Chicago State', 'Chicago Youth Ctr', 'Defender', 'Depaul',
+                     'Dominican', 'Dusable', 'Evanston History Ctr', 'ETA Creative Arts', 'Gerber Hart', 'CPL-Harsh',
+                     'CPL-HWLC', 'Illinois Tech', 'IL Labor History', 'Intl Society Slave Ancestry', 'Kartemquin', 'Lake Cty Discovery',
+                     'Lane Tech HS', 'Little Black Pearl', 'Loyola', 'Malcolm X College', 'Northeastern IL',
+                     'Newberry', 'North Park', 'Northwestern', 'Pullman Historic Site', 'Roosevelt',
+                     'Rush U Med Ctr', 'Shorefront', 'Spertus', 'South Side Community Arts Ctr,'
+                     'UIC', 'UChicago') as $collection) { ?>
     <li><a href="/browse.php?browse=<?=$collection?>"><?=$collection?></a></li>
 <?php } ?>
 </ul>
