@@ -45,7 +45,6 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
                      'Rush U Med Ctr', 'Shorefront', 'Spertus', 'South Side Community Arts Ctr',
                      'UIC', 'UChicago') as $collection) { ?>
     <li><a href="/browse.php?browse=<?=$collection?>"><?=$collection?></a></li>
-<?php } ?>
 </ul>
 </div>
 </div>
