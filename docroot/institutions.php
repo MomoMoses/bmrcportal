@@ -20,19 +20,17 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 <!--TEXT-->
 <div id="textwrapper">
 
-<h2>About the Institutions</h2>
+<h2>About Our Members</h2>
 
 <div class="quicklinks">
 <h2>Quicklinks</h2>
 <ul>
-<li><a href="#chicagodefender">Chicago Defender</a></li>
-<li><a href="#dusable">DuSable Museum of African American History</a></li>
+
 <li><a href="#chicagopubliclibrary">Chicago Public Library, Carter G. Woodson
 Regional Library, Vivian G. Harsh Research Collection of Afro-American History
 and Literature</a></li>
 <li><a href="#northwesternuniversitylibrary">Northwestern University
 Library</a></li>
-<li><a href="#sscac">South Side Community Art Center</a></li>
 <li><a href="#universityofchicago">University of Chicago Library</a></li>
 </ul>
 </div>
