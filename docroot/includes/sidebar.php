@@ -19,12 +19,15 @@ $xp->importStyleSheet($xsl);
 $ALLFINDINGAIDS = $xp->transformToXML($xml);
 
 ?>
+
 <div class="bgse">
 <div class="bgsw">
-<div class="bgne"><h2 class="bgnw">Search all Finding Aids</h2></div>
+<div class="bgne"><h2 class="bgnw">Search all Finding Aids</h2>
+  </div>
 <form action="search.php" id="searchform" method="get">
 <input id="searchterm" name="q" type="text"/>
-<p style="font-size: 13px;"><input name="exactphrase" style="display: inline; width: auto;" type="checkbox" /> search this exact phrase</p>
+<p style="font-size: 13px;">
+  <input name="exactphrase" style="display: inline; width: auto;" type="checkbox" /> search this exact phrase</p>
 <input type="submit" value="Search"/>
 <p><a href="advancedsearch.html" id="advancedsearchlink">Advanced Search</a></p>
 </form>
@@ -33,7 +36,8 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
 
 <div class="bgse">
 <div class="bgsw">
-<div class="bgne"><h2 class="bgnw">Browse by Organization</h2></div>
+<div class="bgne"><h2 class="bgnw">Browse by Organization</h2>
+</div>
 
 <ul>
 <?php foreach (array('Bronzeville Historical', 'CBMR', 'Chicago History Museum','Columbia College',
@@ -43,8 +47,19 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
                      'Lane Tech HS', 'Little Black Pearl', 'Loyola', 'Malcolm X College', 'Northeastern IL',
                      'Newberry', 'North Park', 'Northwestern', 'Pullman Historic Site', 'Roosevelt',
                      'Rush U Med Ctr', 'Shorefront', 'Spertus', 'South Side Community Arts Ctr',
-                     'UIC', 'UChicago') as $collection) { ?>
+                     'UIC', 'UChicago') as $collection)
+                     { ?>
     <li><a href="/browse.php?browse=<?=$collection?>"><?=$collection?></a></li>
+<?php } ?>
+<div class="bgse">
+<div class="bgsw">
+<div class="bgne"><h2 class="bgnw">Browse All Finding Aids</h2></div>
+
+<ul>
+<li><a href="/browse.php">more ...</a></li>
+</ul>
+</div>
+</div>
 </ul>
 </div>
 </div>
