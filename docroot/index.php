@@ -37,7 +37,10 @@ top: 3px;
 <!--TEXT-->
 <div id="textwrapper">
 
-<p><img alt="People in the street celebrating Juneteenth in Chicago" id="homepagephoto" src="img/Juneteenth_UChicagoNews_Prof Saville.png"/></p>
+<p><img alt="Opening day of the Chicago Public Library, Cleveland Hall Branch, 1932" id="homepagephoto"
+  src="img/hall084-opening-day-web.jpg"/>
+Chicago Public Library, Cleveland Hall Branch - Opening Day on January 18, 1932 - Vivian Harsh, center.
+Source: Vivian G. Harsh Research Collection, George Cleveland Hall Branch Archives, Photo 084.</p>
 
 <h2 id="about">The collections portal of the Black Metropolis Research Consortium highlights archival materials across Chicago archives, museums, and community
 organizations.</h2>
