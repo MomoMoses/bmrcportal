@@ -36,7 +36,8 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
 
 <div class="bgse">
 <div class="bgsw">
-<div class="bgne"><h2 class="bgnw">Browse by Organization</h2>
+<div class="bgne">
+  <h2 class="bgnw">Browse by Organization</h2>
 </div>
 
 <ul>
@@ -51,9 +52,11 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
                      { ?>
     <li><a href="/browse.php?browse=<?=$collection?>"><?=$collection?></a></li>
 <?php } ?>
+</ul>
 <div class="bgse">
 <div class="bgsw">
-<div class="bgne"><h2 class="bgnw">Browse All Finding Aids</h2></div>
+<div class="bgne">
+  <h2 class="bgnw">Browse All Finding Aids</h2></div>
 
 <ul>
 <li><a href="/browse.php">more ...</a></li>
