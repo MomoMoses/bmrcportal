@@ -22,7 +22,8 @@
 
 <!-- DIV -->
 <xsl:template match="div">
-<xsl:if test="position() &lt; 4"><li><a href="/view.php?eadid={span[1]}"><xsl:value-of select="span[2]"/></a></li></xsl:if>
+<xsl:if test="position() &lt; 4"><li><a href="/view.php?eadid={span[1]}">
+  <xsl:value-of select="span[2]"/></a></li></xsl:if>
 </xsl:template>
 
 </xsl:stylesheet>

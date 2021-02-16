@@ -15,8 +15,13 @@ body#ead div#text a:link,
 body#ead div#text a:visited {
 	text-decoration: underline;
 }
-body {
+body#home {
 	background: white url(../img/BMRC_banner-green.jpg) repeat-x;
+	font-family: Georgia, sans-serif;
+	line-height: 1.6;
+}
+body {
+	background: white;
 	font-family: Georgia, sans-serif;
 	line-height: 22px;
 }
