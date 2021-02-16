@@ -35,10 +35,11 @@ href="http://www.chipublib.org/aboutcpl/ask_a_librarian.php">ask a
 librarian</a> on the <a href="http://www.chipublib.org/">Chicago Public Library
 website</a>.</p>
 </institution>
-<institution
+<institution>
   <h3 id="chicagopubliclibrary-HWLC">About the Harold Washington Library Center
     Archives and Special Collections</h3>
-
+  <p><span class="snippet">short abstract here</span>
+</institution>
   <institution>
     <h3 id="northwesternuniversitylibrary">About the Northwestern University Library</h3>
 

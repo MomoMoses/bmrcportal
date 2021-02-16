@@ -57,7 +57,7 @@ body#institutions {
 }
 #header {
 	height: 66px;
-	margin-bottom: 22px;
+	margin-bottom: 12px;
 	position: relative;
 }
 #header h1 {
@@ -145,7 +145,7 @@ html {
 	margin-top: 0;
 }
 img#homepagephoto {
-	margin-top: 11px;
+	margin-top: 10px;
 	width: 100%;
 }
 
@@ -176,6 +176,6 @@ div.quicklinks ul {
 img.lightRight {
 	position: relative;
 	float: right;
-	opacity: 0.75;
-	padding: 0 0 0 20px;
+	opacity: 0.8;
+	padding: 25px 0 0 0px;
 }

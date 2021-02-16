@@ -1,5 +1,6 @@
 <h2><a href="/">BMRC PORTAL</a></h2>
   <img alt="logo" class="lightRight" src="/img/BMRC-Logo-sm.jpg" />
+
 <div id="navigation">
 <ul>
 <li><a href="/" id="navhome">About the BMRC Portal</a></li>

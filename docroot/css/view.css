@@ -1,6 +1,6 @@
 /* 
 In IE7, the scrollbars in view.php flicker when the screen is being
-resized. Google "Flickering scrollbars with inner layout and IE7 to 
+resized. Google "Flickering scrollbars with inner layout and IE7 to
 find this thread:
 
 http://groups.google.com/group/jquery-ui-layout/browse_thread/thread/033ec67b901a8d57/b8e1f68803b09226
@@ -8,7 +8,7 @@ http://groups.google.com/group/jquery-ui-layout/browse_thread/thread/033ec67b901
 They talk about this being unavoidable in IE7.
 
 IE6 usage is dropping sharply. Send a less fully functional version of
-the layout to IE6. No scrollbars- just scroll the whole page. 
+the layout to IE6. No scrollbars- just scroll the whole page.
 
 */
 
@@ -117,7 +117,7 @@ html {
 }
 
 /*
- * EAD 
+ * EAD
  */
 
 .publisher {
@@ -128,4 +128,3 @@ div#itemnav {
 	float: left;
 	width: 25%;
 }
-
