@@ -22,7 +22,8 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
 
 <div class="bgse">
 <div class="bgsw">
-<div class="bgne"><h2 class="bgnw">Search all Finding Aids</h2>
+<div class="bgne">
+  <h2 class="bgnw">Search all Finding Aids</h2>
   </div>
 <form action="search.php" id="searchform" method="get">
 <input id="searchterm" name="q" type="text"/>
@@ -54,11 +55,14 @@ $ALLFINDINGAIDS = $xp->transformToXML($xml);
 <?php } ?>
 </ul>
 </div>
+</div>
+</ul>
+
 <div class="bgse">
 <div class="bgsw">
 <div class="bgne">
-  <h2 class="bgnw">Browse All Finding Aids</h2></div>
-
+  <h2 class="bgnw">Browse All Finding Aids</h2>
+</div>
 <ul>
 <li><a href="/browse.php">more ...</a></li>
 </ul>
