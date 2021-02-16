@@ -8,11 +8,11 @@ if (isset($_GET['eadid'])) {
 }
 
 $HTML = array();
-foreach($clean as $k => $v) 
+foreach($clean as $k => $v)
 	$HTML[$k] = htmlspecialchars($clean[$k]);
 
 $URL = array();
-foreach ($clean as $k => $v) 
+foreach ($clean as $k => $v)
 	$URL[$k] = urlencode($clean[$k]);
 
 $q = $MARKLOGIC . "/request.xqy?action=get&eadid=ICU.SPCL.BOTANY&format=raw-xml";
