@@ -2,12 +2,12 @@ body {
 	margin: 0 10px;
 }
 body#home {
-	background: white url(../img/BMRC_banner-green.jpg) repeat-x;
+	background: white url(../img/BMRC_banner-green-sm.jpg) repeat-x;
 	font-family: Georgia, sans-serif;
 	line-height: 1.6;
 }
 body#institutions {
-	background: white url(../img/BMRC_banner-brown-v.jpg) repeat-y;
+	background: white url(../img/BMRC_banner-brown3-83.jpg) repeat-x;
 	font-family: Georgia, sans-serif;
 	line-height: 1.6;
 }
@@ -145,7 +145,7 @@ html {
 	margin-top: 0;
 }
 img#homepagephoto {
-	margin-top: 0px;
+	margin-top: 5px;
 	width: 100%;
 }
 
@@ -175,13 +175,14 @@ div.quicklinks ul {
 }
 img.lightRight {
 	position: relative;
-	/*float: right;*/
+	float: right;
 	opacity: 0.85;
 	padding: 20px 0 0 0px;
 }
 h2.site {
+	font-family: serif;
 	font-style: oblique;
 	font-weight: bolder;
-	font-size: 2;
-	float: right;
+	font-size: 2.5;
+	text-align: center;
 }
