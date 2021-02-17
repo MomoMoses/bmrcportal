@@ -7,7 +7,7 @@ body#home {
 	line-height: 1.6;
 }
 body#institutions {
-	background: white url(../img/BMRC_banner-brown70.jpg) repeat-x;
+	background: white url(../img/BMRC_banner-brown-v.jpg) repeat-y;
 	font-family: Georgia, sans-serif;
 	line-height: 1.6;
 }
@@ -175,12 +175,13 @@ div.quicklinks ul {
 }
 img.lightRight {
 	position: relative;
-	float: right;
+	/*float: right;*/
 	opacity: 0.85;
 	padding: 20px 0 0 0px;
 }
 h2.site {
 	font-style: oblique;
-	font-weight: 700;
-	font-size: 22px;
+	font-weight: bolder;
+	font-size: 2;
+	float: right;
 }
