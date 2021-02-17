@@ -10,7 +10,8 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 <div id="wrapper1">
 <div id="wrapper2">
 <!--HEADER-->
-<div id="header"><?php include "includes/header.php"; ?></div>
+<div id="header">
+  <?php include "includes/header.php"; ?></div>
 
 <!--SIDEBAR -->
 <div id="sidebar">

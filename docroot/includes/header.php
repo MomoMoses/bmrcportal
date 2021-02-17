@@ -1,4 +1,4 @@
-<h2><a href="/">BMRC PORTAL</a></h2>
+<h2 id=site><a href="/">BMRC PORTAL</a></h2>
   <img alt="logo" class="lightRight" src="/img/BMRC-Logo-sm.jpg" />
 
 <div id="navigation">

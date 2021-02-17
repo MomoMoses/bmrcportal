@@ -20,7 +20,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 <!--TEXT-->
 <div id="textwrapper">
 
-<h2>More to Discover</h2>
+<h2>More to Discover: Organizations and Other Archives</h2>
 
 <div class="quicklinks">
 <h2>Quicklinks</h2>
