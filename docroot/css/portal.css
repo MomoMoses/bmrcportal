@@ -35,7 +35,8 @@ ol {
 }
 #navigation a:hover,
 #navigation a:active {
-	border-bottom: 5px solid #b4c2c4;
+	border-bottom: 5px solid #757547;
+	/*border-bottom: 5px solid #b4c2c4;*/
 }
 #home #navigation a#navhome,
 #collections #navigation a#navcollections,
